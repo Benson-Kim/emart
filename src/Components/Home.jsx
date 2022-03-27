@@ -3,7 +3,7 @@ import Products from './Products';
 
 const Home = () => {
   return (
-    <div>
+    <div> 
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -13,16 +13,16 @@ const Home = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/assets/images/home/iphone.jpg" className="d-block w-100" alt="iphone products" height="500px"/>
+            <img src="/assets/images/home/iphone.jpg" className="d-block w-100" alt="iphone products" height="500px" />
           </div>
           <div className="carousel-item">
-            <img src="/assets/images/home/laptop.jpg" className="d-block w-100" alt="laptops" height="500px"/>
+            <img src="/assets/images/home/laptop.jpg" className="d-block w-100" alt="laptops" height="500px" />
           </div>
           <div className="carousel-item">
-            <img src="/assets/images/home/samsung.jpg" className="d-block w-100" alt="samsung products" height="500px"/>
+            <img src="/assets/images/home/samsung.jpg" className="d-block w-100" alt="samsung products" height="500px" />
           </div>
           <div className="carousel-item">
-            <img src="/assets/images/home/nikon.jpg" className="d-block w-100" alt="nikon camera" height="500px"/>
+            <img src="/assets/images/home/nikon.jpg" className="d-block w-100" alt="nikon camera" height="500px" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
